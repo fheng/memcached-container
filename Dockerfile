@@ -4,7 +4,8 @@ EXPOSE 11211
 
 RUN PKGS='memcached nc' && \
     yum -y install $PKGS && \
-    yum clean all
+    yum clean all  && \
+    ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
 USER memcached
 
