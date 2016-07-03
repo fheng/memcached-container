@@ -4,7 +4,7 @@ Memcached image based on rhel7.
 
 ## Testing
 
-docker pull rhmap/memcached:latest
+`docker pull rhmap/memcached:latest`
 
 ## Exposed ports:
 
