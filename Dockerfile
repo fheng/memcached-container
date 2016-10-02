@@ -10,4 +10,4 @@ RUN PKGS='memcached nc' && \
 USER memcached
 
 ENTRYPOINT ["memcached"]
-CMD ["-m", "512", "-vv"]
+CMD ["-m", "512", "-vv", "-I", "2m"]
