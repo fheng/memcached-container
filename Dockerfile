@@ -7,6 +7,8 @@ RUN PKGS='memcached nc' && \
     yum clean all  && \
     ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
+COPY licenses/ /root/licenses/rhmap/
+
 USER memcached
 
 ENTRYPOINT ["memcached"]

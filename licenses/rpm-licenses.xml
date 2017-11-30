@@ -1,0 +1,25 @@
+<?xml version='1.0'?>
+<licenseSummary>
+    <dependencies>
+        <dependency>
+            <packageName>memcached</packageName>
+            <version>1.4.15</version>
+            <licenses>
+                <license>
+                    <name>rpm-memcached_bsd.txt</name>
+                    <url>https://raw.githubusercontent.com/memcached/memcached/1.4.15/LICENSE</url>
+                </license>
+            </licenses>
+        </dependency>
+        <dependency>
+            <packageName>nmap-ncat</packageName>
+            <version>6.40</version>
+            <licenses>
+                <license>
+                    <name>GPLv2 with modifications</name>
+                    <url>https://svn.nmap.org/nmap/COPYING</url>
+                </license>
+            </licenses>
+        </dependency>
+    </dependencies>
+</licenseSummary>
