@@ -11,6 +11,8 @@ RUN PKGS='memcached nc python2-pip' && \
     /bin/pip2 install pymemcache && \
     ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
+ADD post_start.py /tmp/post_start.py
+
 USER memcached
 
 ENTRYPOINT ["memcached"]
